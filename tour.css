@@ -1,0 +1,884 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(hero.png);
+    background-size: 1360px 820px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+header {
+    margin-top: 32px;
+    margin-bottom: 30%;
+}
+
+.container {
+    width: 80%;
+    margin: auto auto;
+}
+
+#flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#flex ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#flex ul li {
+    padding: 10px;
+}
+
+#flex ul li a {
+    color: #514D59;
+}
+
+#flex ul li:last-child {
+    margin-left: 60px;
+}
+
+#coffee {
+    position: absolute;
+    z-index: 99;
+    right: -78px;
+    top: 132px;
+}
+
+#section {
+    position: relative;
+    margin: 226px 0px 0px 105px;
+}
+
+#section>div:first-child {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border-radius: 20px 120px 0px 0px;
+    padding-top: 5px;
+    padding-left: 25px;
+    font-family: poppins;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+#game {
+    display: flex;
+    backdrop-filter: blur(50px);
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 20px 20px 20px;
+}
+
+#name {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#name>div {
+    display: flex;
+    align-items: center;
+}
+
+#name>div:first-child {
+    margin-left: 20px;
+    border-right: 2px solid rgba(128, 128, 128, 0.575);
+    padding-right: 20px;
+}
+
+input::placeholder {
+    font-size: 20px;
+    color: #333333;
+    font-weight: 600;
+}
+
+#name>div:first-child input {
+    width: 100%;
+    font-size: 16px;
+}
+
+#name>div:nth-child(2) {
+    margin-left: 60px;
+    margin-left: 25px;
+    border-right: 2px solid rgba(128, 128, 128, 0.575);
+    padding-right: 25px;
+}
+
+#name>div:nth-child(3) {
+    margin-left: 40px;
+}
+
+#name>div:nth-child(3) input {
+    width: 100%;
+}
+
+#name>a {
+    margin-left: 79px;
+    margin-right: 30px;
+    padding: 20px;
+    background-color: #884AFF;
+    border-radius: 17px;
+}
+
+#name>a i {
+    font-size: 30px;
+    color: white;
+}
+
+#name>div .logo {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    color: rgb(77, 74, 253);
+    font-size: 22px;
+}
+
+#name>div .content {
+    font-family: poppins;
+    margin-left: 15px;
+}
+
+#name>div .content p {
+    font-size: 16px;
+    font-weight: light;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#name>div .content label {
+    font-size: 16px;
+    font-weight: light;
+    color: rgba(0, 0, 0, 0.7);
+    display: block;
+}
+
+#name>div .content input {
+    border: none;
+    font-size: 22px;
+    font-family: poppins;
+    font-weight: 700;
+    color: #333333;
+    width: 100%;
+}
+
+#name>div .content input:focus {
+    outline: none;
+}
+
+
+#name>div .content h5 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+main .container h2 {
+    font-family: poppins;
+    font-size: 70px;
+    color: #514D59;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+#goods {
+    display: flex;
+    text-align: center;
+    gap: 27px;
+}
+
+#goods .got img {
+    width: 100px;
+    height: 100px;
+}
+
+#goods .got h3 {
+    margin-top: 18px;
+    font-size: 22px;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+#goods .got p {
+    font-size: 16px;
+    font-family: roboto;
+    margin-top: 10px;
+}
+
+.rome>div:first-child img:first-child {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    object-fit: scale-down;
+    border-bottom-right-radius: 0px;
+}
+
+.rome>div:first-child img:last-child {
+    position: absolute;
+    left: 27%;
+    top: 1%;
+
+}
+
+#talk {
+    padding-top: 40px;
+    background-color: #FAFAFA;
+    padding-bottom: 1px;
+    margin-top: 10%;
+}
+
+#talk .rome {
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+}
+
+#talk .rome>div:last-child h2 {
+    font-family: poppins;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #514D59;
+    text-align: left;
+    line-height: 60px;
+}
+
+#talk .rome>div:last-child p {
+    font-family: roboto;
+    font-size: 16px;
+    margin-top: -60px;
+    margin-bottom: 10px;
+}
+
+#talk .rome>div:last-child a {
+    color: #7000FF;
+    text-decoration: none;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#talk .rome>div:last-child {
+    margin-left: 50px;
+}
+
+#talk .container>div:nth-child(2) {
+    flex-direction: row-reverse;
+    margin-top: 40px;
+}
+
+#talk .container>div:nth-child(2) div:first-child img:first-child {
+    border-radius: 50%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    object-fit: inherit;
+    margin-left: 105px;
+}
+
+#talk .container>div:nth-child(2) div:first-child img:last-child {
+    left: 61%;
+    top: -6%;
+}
+
+#talk .container>div:nth-child(3) {
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+#talk .container>div:nth-child(3) div:first-child img:first-child {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+#talk .container>div:nth-child(3) div:first-child img:last-child {
+    top: -15%;
+    left: 28%;
+}
+
+#talk .container>div:nth-child(3) div:last-child {
+    margin-left: 160px;
+}
+
+#review {
+    background-image: url(review.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 99vw auto;
+}
+
+#review .container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#review .container div h5 {
+    margin-top: 130px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #514D59;
+    font-family: poppins;
+}
+
+#review .container div h3 {
+    font-size: 45px;
+    font-family: poppins;
+    margin-top: 10px;
+    color: #514D59;
+    width: 692px;
+}
+
+#review .container div p {
+    font-size: 18px;
+    font-family: roboto;
+    color: #514D59;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 7%;
+    padding-left: 45%;
+}
+
+footer {
+    background-color: #333333;
+}
+
+#footer {
+    display: flex;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+#footer>div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer>div:last-child {
+    display: flex;
+    margin-left: 70px;
+}
+
+#start {
+    display: flex;
+    flex-direction: column;
+}
+
+#start img:first-child {
+    width: 55%;
+    margin-bottom: 10px;
+}
+
+#footer>div:last-child h4 {
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 25px;
+}
+
+#footer>div:last-child ul li {
+    margin-bottom: 15px;
+
+}
+
+#footer>div:last-child ul li a {
+    font-family: poppins;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+
+}
+
+#footer>div:last-child ul li a:hover {
+    color: rgb(139, 70, 228);
+}
+
+
+#footer>div ul {
+    list-style-type: none;
+}
+
+#footer .role {
+    margin-left: 25px;
+    text-align: left;
+
+}
+
+#footer>div:first-child div:last-child {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+#footer>div:first-child div:last-child a {
+    margin-right: 45px;
+    font-size: 25px;
+    color: white;
+}
+
+#last {
+    background-color: #EAEAEA;
+}
+
+#last div .go {
+    color: #625F67;
+    font-family: poppins;
+    font-size: 16px;
+    margin-right: 15px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#last .container {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#last .container div {
+    display: flex;
+    padding: 6px;
+}
+
+/* 768 to 991  tablet  */
+@media(min-width:768px) and (max-width:991px) {
+    header {
+        margin-bottom: 15%;
+    }
+
+    #section {
+        margin-top: 160px;
+        margin-left: 70px;
+    }
+
+    #game {
+        padding: 10px 0px;
+    }
+
+    #name {
+        flex-direction: column;
+        margin: 20px;
+        padding: 10px 0px;
+        flex-grow: 1;
+        padding: 20px;
+    }
+
+    #name>div .logo {
+        display: none;
+    }
+
+    #name>div:first-child {
+        border: none;
+        border-bottom: 2px solid rgba(128, 128, 128, 0.575);
+        margin-left: 0px;
+        width: 100%;
+        padding: 20px;
+
+    }
+
+    #name>div:nth-child(2) {
+        border: none;
+        border-bottom: 2px solid rgba(128, 128, 128, 0.575);
+        margin-bottom: 25px;
+        margin-left: 0;
+        width: 100%;
+        padding: 20px;
+
+    }
+
+    #name>div:nth-child(3) {
+        border: none;
+        border-bottom: 2px solid rgba(128, 128, 128, 0.575);
+        margin-left: 0px;
+        margin-bottom: 25px;
+        width: 100%;
+        padding: 20px;
+    }
+
+    #name>a {
+        padding: 11px 45%;
+        margin-right: 52px;
+    }
+
+    #name>div .content p {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    #name>div .content input {
+        font-size: 18px;
+    }
+
+    #name>div .content input::placeholder {
+        font-size: 20px;
+    }
+
+    #section>div:first-child {
+        padding: 11px 53px 3px 41px;
+    }
+
+    #coffee {
+        top: 510px;
+        width: 60px;
+        right: -20px;
+    }
+
+    #head {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    #goods {
+        flex-wrap: wrap;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #goods .got {
+        width: 50%;
+        margin-top: 55px;
+    }
+
+    #talk .rome {
+        flex-direction: column;
+    }
+
+    .rome>div:first-child img:first-child {
+        width: 250px;
+        height: 250px;
+    }
+
+    #talk .container>div:nth-child(2) {
+        display: none;
+    }
+
+    #talk .rome {
+        text-align: center;
+    }
+
+    #talk .rome>div:last-child h2 {
+        font-size: 20px;
+        line-height: 50px;
+        margin-left: 140px;
+        margin-bottom: 0;
+    }
+
+    #talk .rome>div:last-child p {
+        margin: 0;
+        padding: 15px 105px;
+    }
+
+    #talk .container>div:nth-child(3) div:last-child h2 {
+        margin: 0;
+    }
+
+    #talk .container>div:nth-child(3) div:last-child p {
+        padding: 8px 88px 18px 0px;
+    }
+
+    .rome>div:first-child img:last-child {
+        left: 53%;
+        top: -4%;
+        width: 91px;
+    }
+
+    #talk .container>div:nth-child(3) div:first-child img:last-child {
+        left: 57%;
+        top: -11%;
+    }
+
+    #talk .rome>div:last-child {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    #talk .container>div:nth-child(3) div:last-child a {
+        margin-left: -90px;
+    }
+
+    #talk .container>div:nth-child(3) {
+        margin-bottom: 0;
+    }
+
+    #review {
+        display: none;
+    }
+
+    #footer>div:last-child {
+        margin-left: 15px;
+    }
+
+    #footer>div:last-child ul li a {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    #footer>div:last-child h4 {
+        font-size: 16px;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+
+    #footer {
+        padding-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    #last .container {
+        padding: 0;
+    }
+    #last div .go{
+        font-size: 14px;
+    }
+}
+
+/* 0 to 768 mobile*/
+@media(max-width:768px) {
+    .container{
+        width: 100%;
+    }
+    header {
+        margin-bottom: 30%;
+    }
+
+    #section {
+        margin:171px 50px 0px 50px;
+    }
+
+    #game {
+        padding: 0px 0px;
+    }
+
+    #name {
+        flex-direction: column;
+        margin: 7px;
+        padding: 10px 0px;
+        flex-grow: 1;
+        padding: 20px;
+    }
+
+    #name>div .logo {
+        display: none;
+    }
+
+    #name>div:first-child {
+        border: none;
+        border-bottom: 2px solid rgba(128, 128, 128, 0.575);
+        margin-left: 0px;
+        width: 100%;
+        padding: 15px;
+
+    }
+
+    #name>div:nth-child(2) {
+        border: none;
+        border-bottom: 2px solid rgba(128, 128, 128, 0.575);
+        margin-bottom: 25px;
+        margin-left: 0;
+        width: 100%;
+        padding: 15px;
+
+    }
+
+    #name>div:nth-child(3) {
+        border: none;
+        border-bottom: 2px solid rgba(128, 128, 128, 0.575);
+        margin-left: 0px;
+        margin-bottom:15px;
+        width: 100%;
+        padding: 15px;
+    }
+
+    #name>a {
+        padding: 3px 36%;
+        margin-right: 90px;
+    }
+
+    #name>div .content p {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+
+    #name>div .content input {
+        font-size: 15px;
+    }
+
+    #name>div .content input::placeholder {
+        font-size: 16px;
+    }
+
+    #section>div:first-child {
+        padding: 5px 36px 2px 26px;
+        font-size: 15px;
+    }
+
+    #coffee {
+        display: none;
+    }
+
+    #head {
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+    #goods .got h3{
+        font-size: 16px;
+    }
+    #goods .got p{
+        font-size: 14px;
+    }
+
+    #goods {
+        flex-wrap: wrap;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #goods .got {
+        width: 100%;
+        margin-top: 55px;
+    }
+    #talk .rome {
+        flex-direction: column;
+    }
+
+    .rome>div:first-child img:first-child {
+        width: 180px;
+        height: 180px;
+    }
+
+    #talk .container>div:nth-child(2) {
+        display: none;
+    }
+
+    #talk .rome {
+        text-align: center;
+    }
+
+    #talk .rome>div:last-child h2 {
+        font-size: 16px;
+        line-height: 40px;
+        margin-left: 15%;
+        margin-bottom: 0;
+    }
+
+    #talk .rome>div:last-child p {
+        margin: 0;
+        padding: 15px 50px;
+        font-size: 14px;
+    }
+
+    #talk .container>div:nth-child(3) div:last-child h2 {
+        margin: 0;
+        margin-left: 20%;
+    }
+
+    #talk .container>div:nth-child(3) div:last-child p {
+        margin: 0px;
+        padding: 5px;
+        margin-left: 10%;
+        margin-bottom: 10px;
+    
+    }
+
+    .rome>div:first-child img:last-child {
+        left: 50%;
+        top: -5%;
+        width: 80px;
+    }
+
+    #talk .container>div:nth-child(3) div:first-child img:last-child {
+        left: 53%;
+        top: -10%;
+    }
+
+    #talk .rome>div:last-child {
+        margin: 0;
+        padding: 20px;
+    }
+    #talk .container>div:nth-child(3) div:last-child{
+        margin: 0;
+    }
+
+    #talk .container>div:nth-child(3) {
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+
+    #review {
+        display: none;
+    }
+
+    #footer>div:last-child {
+        margin-left: 5%;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    #footer>div:last-child ul li a {
+        padding: 0;
+        font-size: 12px;
+    }
+
+    #footer>div:last-child h4 {
+        font-size: 14px;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+
+    #footer {
+        padding-top: 20px;
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+
+    #last .container {
+        padding: 0;
+    }
+    #last div .go{
+        font-size: 12px;
+    }
+    #start{
+        margin-left: 50px;
+    }
+    #star-1{
+        width: 30%;
+    }
+    #start img:first-child{
+        width: 20%;
+    }
+    .logo1{
+        font-size: 60%;
+    }
+    #footer .role{
+        margin-left: 20px;
+    }
+    #footer>div:first-child div:last-child{
+        padding-left: 50px;
+        margin-top: 7px;
+    }
+}
